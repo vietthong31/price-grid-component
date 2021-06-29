@@ -1,0 +1,53 @@
+$cyan: hsl(179, 62%, 43%);
+$bright-yellow: hsl(71, 73%, 54%);
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(218, 22%, 67%);
+$blue-green: #4abebd;
+
+body {
+  background: $light-gray;
+}
+
+h2 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.introduce {
+  background: white;
+  h1 {
+    color: $cyan;
+  }
+  p {
+    color: $grayish-blue;
+  }
+  p.guarantee {
+    color: $bright-yellow;
+  }
+}
+
+.subscribe {
+  background: $cyan;
+  .price {
+    color: white;
+  }
+  p {
+    color: $light-gray;
+  }
+  .price + span {
+    color: rgb(229 239 245 / 50%);
+  }
+}
+
+.services {
+  background: $blue-green;
+  ul {
+    color: hsl(203deg 44% 93% / 80%);
+    list-style-type: none;
+    padding: 0;
+  }
+}
+.sign-up {
+  background: $bright-yellow;
+  color: white;
+}
